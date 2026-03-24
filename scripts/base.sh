@@ -7,6 +7,9 @@ info "Running base setup..."
 sudo apt update -qq
 sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y -q
 
+# remove packages that block non-interactive upgrades on headless nodes
+sudo DEBIAN_FRONTEND=noninteractive apt-get remove -y rpi-chromium-mods 2>/dev/null || true
+
 # common packages
 sudo apt install -y git python3-venv python3-pip
 
