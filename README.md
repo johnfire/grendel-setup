@@ -7,7 +7,7 @@ Bootstrap scripts for Grendel AGI Raspberry Pi nodes. Run on a freshly flashed P
 On a freshly flashed Pi:
 
 ```bash
-git clone https://github.com/christopherrehm/grendel-setup.git
+git clone https://github.com/johnfire/grendel-setup.git
 cd grendel-setup
 chmod +x setup.sh scripts/*.sh
 ./setup.sh <role>

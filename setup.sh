@@ -7,7 +7,7 @@
 set -euo pipefail
 
 ROLE="${1:-}"
-REPO_URL="https://github.com/christopherrehm/grendel2026.git"
+REPO_URL="https://github.com/johnfire/grendel2026.git"
 GRENDEL_DIR="$HOME/grendel2026"
 SETUP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
