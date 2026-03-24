@@ -6,12 +6,11 @@
 set -euo pipefail
 
 MESH_NODES=(
-    "chris@192.168.0.101"
-    "chris@192.168.0.102"
-    "chris@192.168.0.103"
-    "chris@192.168.0.104"
-    "chris@192.168.0.105"
-    "chris@192.168.0.106"
+    "pi@192.168.0.102"
+    "pi@192.168.0.103"
+    "pi@192.168.0.104"
+    "pi@192.168.0.105"
+    "pi@192.168.0.106"
 )
 
 SSH_OPTS="-o StrictHostKeyChecking=no -o ConnectTimeout=10"
